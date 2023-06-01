@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stopwatch{
+    color: orangered;
+    border:solid;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 5px 5px;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin: 20px;
+}
